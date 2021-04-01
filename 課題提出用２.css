@@ -17,7 +17,7 @@ main {
 
 .main-content {
   width: 300px;
-  margin-right: 30px;
+  margin: 30px;
   padding: 10px;
   position: relative;
   background-color: #eeeeee;
@@ -81,18 +81,19 @@ footer {
   main {
     width: 100%;
     display: block;
-    text-align: center;
   }
   .main-content {
+    width: 90%;
     margin: 50px auto;
+  }
+  .main-content {
+    margin: 20px;
   }
   .main-content:last-child {
-    margin: 50px auto;
-  }
-  .main-mini {
-    left: 45%;
+    margin: auto;
+    margin-bottom: 50px;
   }
   footer {
-    width:100%;
+    width: 100%;
   }
 }
